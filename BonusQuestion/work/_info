@@ -1,0 +1,88 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/HW4
+vcalculator
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1719421821
+!i10b 1
+!s100 f8?Hh7zzf6:zhPN>G>CMI1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[g6_U7M50jHI0S73AcajL0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/BonusQuestion
+w1719418536
+8C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\calculator.v
+FC:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\calculator.v
+!i122 15
+L0 1 29
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1719421821.000000
+!s107 C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\calculator.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\calculator.v|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vMemory
+R0
+R1
+!i10b 1
+!s100 =EK3gdG2f3T>kFz[Z7NmN2
+R2
+IjaJZGb@Me]7lAE`Enk8Q;2
+R3
+S1
+R4
+w1719421818
+8C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\memory.v
+FC:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\memory.v
+!i122 16
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\memory.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\memory.v|
+!i113 1
+R7
+R8
+n@memory
+vregisterFile
+R0
+R1
+!i10b 1
+!s100 o1_cH=>;:<k_XX^In<@6C1
+R2
+I@_^KekDKjZnTf2J;dSK7b1
+R3
+S1
+R4
+w1719420636
+8C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\registerFile.v
+FC:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\registerFile.v
+!i122 14
+L0 1 49
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\registerFile.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\BonusQuestion\registerFile.v|
+!i113 1
+R7
+R8
+nregister@file
