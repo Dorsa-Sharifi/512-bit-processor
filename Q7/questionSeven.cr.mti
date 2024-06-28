@@ -1,0 +1,29 @@
+C:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/Q7/registerFile.v {1 {vlog -work work -stats=none {C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\Q7\registerFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registerFile
+
+Top level modules:
+	registerFile
+
+} {} {}} C:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/Q7/memory.v {1 {vlog -work work -stats=none {C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\Q7\memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} C:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/Q7/alu.v {1 {vlog -work work -stats=none {C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\Q7\alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/Q7/processor.v {1 {vlog -work work -stats=none {C:\Users\Notebook\OneDrive\Documents\Books\Uni\DSD\Codes\Q7\processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}}

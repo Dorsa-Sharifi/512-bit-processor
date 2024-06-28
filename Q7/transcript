@@ -1,0 +1,91 @@
+# Compile of alu.v was successful.
+# Compile of memory.v was successful.
+# Compile of registerFile.v was successful.
+# Compile of processor.v was successful.
+# Compile of testBench.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of memory.v was successful.
+# Compile of registerFile.v was successful.
+# Compile of processor.v was successful.
+# Compile of testBench.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of memory.v was successful.
+# Compile of registerFile.v was successful.
+# Compile of processor.v was successful.
+# Compile of testBench.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 23:18:47 on Jun 28,2024
+# Loading work.testBench
+# Loading work.processor
+# Loading work.alu
+# Loading work.registerFile
+# Loading work.Memory
+quit -sim
+# End time: 23:19:17 on Jun 28,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 4
+# Compile of alu.v was successful.
+# Compile of memory.v was successful.
+# Compile of registerFile.v was successful.
+# Compile of processor.v was successful.
+# Compile of testBench.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 23:19:30 on Jun 28,2024
+# Loading work.testBench
+# Loading work.processor
+# Loading work.alu
+# Loading work.registerFile
+# Loading work.Memory
+add wave -position insertpoint sim:/testBench/*
+run -all
+#                    0regAddr1: xx, regAddr2: xx, memAddr: xxx, dataIn: xxxxxxxx, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   10regAddr1: xx, regAddr2: xx, memAddr: 003, dataIn: 000000ba, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   20regAddr1: xx, regAddr2: xx, memAddr: 00f, dataIn: 00000645, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   30regAddr1: xx, regAddr2: xx, memAddr: 03a, dataIn: 00002918, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   40regAddr1: xx, regAddr2: xx, memAddr: 03f, dataIn: 00f14918, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   60regAddr1: xx, regAddr2: xx, memAddr: 069, dataIn: 00f14918, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   70regAddr1: xx, regAddr2: xx, memAddr: 00f, dataIn: 00f14918, dataOut: xxxxxxxx, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   75regAddr1: xx, regAddr2: xx, memAddr: 00f, dataIn: 00f14918, dataOut: 00000645, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   80regAddr1: 00, regAddr2: xx, memAddr: 00f, dataIn: 00f14918, dataOut: 00000645, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   90regAddr1: 00, regAddr2: xx, memAddr: 003, dataIn: 00f14918, dataOut: 00000645, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   95regAddr1: 00, regAddr2: xx, memAddr: 003, dataIn: 00f14918, dataOut: 000000ba, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  100regAddr1: 10, regAddr2: xx, memAddr: 003, dataIn: 00f14918, dataOut: 000000ba, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  110regAddr1: 10, regAddr2: xx, memAddr: 03a, dataIn: 00f14918, dataOut: 000000ba, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  115regAddr1: 10, regAddr2: xx, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  120regAddr1: 01, regAddr2: xx, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: xx,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  140regAddr1: 00, regAddr2: 01, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: 00,
+#  answerOfAlu: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002f5d
+#                  150regAddr1: 11, regAddr2: 01, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: 00,
+#  answerOfAlu: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  155regAddr1: 11, regAddr2: 01, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: 00,
+#  answerOfAlu: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005230
+#                  170regAddr1: 10, regAddr2: 11, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: 01,
+#  answerOfAlu: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001ddb70
+#                  180regAddr1: 11, regAddr2: 11, memAddr: 03a, dataIn: 00f14918, dataOut: 00002918, opcode: 01,
+#  answerOfAlu: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000698b240
+# ** Note: $stop    : C:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/Q7/testBench.v(83)
+#    Time: 200 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at C:/Users/Notebook/OneDrive/Documents/Books/Uni/DSD/Codes/Q7/testBench.v line 83
+quit -sim
+# End time: 23:21:14 on Jun 28,2024, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 2
