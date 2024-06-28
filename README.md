@@ -35,6 +35,19 @@ The key point is the assignment :
 assign answerOfAlu = answerOfALU;
 assign registerDataIn = dataOut;
 ```
-These two lines help us to monitor the inputs that are read or written in register and alu.<br />
+These two lines help us to monitor the inputs that are read or written in register and alu, but we should be careful about the signals which enable arithmetic operations and 
+register file operations. In this way, useless data won't be saved in the given variables.<br />
+
+- TestBench :
+![RegisterFile (5)](https://github.com/Dorsa-Sharifi/512-bit-processor/assets/119675151/e2cdd9a8-1a0f-476c-9fd6-d6d694066636)
+The given code provides a testBench which you can test 4 possible operations that are asked for our circuit.<br />
+# How to Run :
+To run the program, follow the steps below:<br />
+1- Open modelSim.<br />
+2- Open your project.<br />
+3- Compile all files.<br />
+4- If the compile was successful, simulate the prorgam.<br />
+5- Press Ctrl+w to add waves in you wave form.<br />
+6- Press run all to see the result.<br />
 # Authors
 -[Dorsa Sharifi Ghombavani](https://github.com/Dorsa-Sharifi) , Student Number: 401170604
